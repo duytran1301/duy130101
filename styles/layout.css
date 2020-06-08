@@ -38,8 +38,8 @@ q:after{content:' �'; font-size:26px; line-height:0;}
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
 div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
-
-.row1, .row1 a{color:#C3CA53;  background-image: url("../images/space.jpg"); background-size: auto;}
+.row1 a{color:#C3CA53 ;}
+.row1{background-image: url("../images/space.jpg"); background-repeat: no-repeat; background-size: 100%;}
 .row2{color:#979797; background-color:#FFFFFF;}
 .row2 a{color:#FF9900; background-color:#FFFFFF;}
 .row3{color:#989898; background-color:#333333;}
