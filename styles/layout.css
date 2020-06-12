@@ -8,7 +8,7 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 
 html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
-body{margin:0; padding:0; font-size:20px; font-family:cursive, "Pacifico", Times, serif; color:rgb(253, 249, 0); background-color:#232323;}
+body{margin:0; padding:0; font-size:20px; font-family: 'Righteous', cursive; color:rgb(253, 249, 0); background-color:#232323;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -40,11 +40,13 @@ q:after{content:' �'; font-size:26px; line-height:0;}
 div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:center;}
 .row1 a{color: rgb(253, 249, 0) ;}
 .row1{background-image: url("../images/black-night-sky-stars-preview.jpg"); background-repeat: no-repeat; background-size: 100%;}
-.row2{color:#979797; background-color:#FFFFFF;}
-.row2 a{color:#FF9900; background-color:#FFFFFF;}
-.row3{color:#989898; background-color:#333333;}
-.row3 a{color:#FF9900; background-color:#333333;}
-.row4, .row4 a{color:#919191; background-color:#232323;}
+.row2{color:#000000; background-color: #FFFFFF;}
+
+.row2 a{color:rgb(253, 0, 0);}
+
+.row3{color:#989898; background-image: url("../images/black-night-sky-stars-preview.jpg");}
+.row3 a{color:#FF9900;}
+.row4, .row4 a{color:#FFFFFF ; background-color:#232323;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
@@ -57,7 +59,7 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:32px; font-weight:normal; 
 
 address{font-style:normal;}
 
-blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:rgb(19, 3, 3); font-style:italic; line-height:normal;}
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
 blockquote:before, q:before{content:'� '; font-size:26px;}
 blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
 
@@ -84,8 +86,8 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #header #hgroup{float:left; margin:0 0 20px 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
-#header #hgroup h1{font-size:36px;}
-#header #hgroup h2{font-size:13px;}
+#header #hgroup h1{font-size: 70px;}
+#header #hgroup h2{font-size: 13px;}
 
 #header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; }
 #header nav ul{padding:0 20px;}
@@ -98,7 +100,8 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #container{padding:30px 0;}
 #container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
 #container .last{margin:0;}
-#container .more{text-align:right;}
+#container .more{
+    text-align:right;}/* this is where to add more */
 
 /* ------Slider-----*/
 
@@ -109,14 +112,20 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #container #homepage{display:block; width:100%; line-height:1.8em;}
 
 #container #homepage #services{}
-#container #homepage #services article{}
-#container #homepage #services article figure{}
+#container #homepage #services article{
+}
+#container #homepage #services article figure{
+
+}
 #container #homepage #services article figure img{margin:0 0 15px 0; padding:4px; border:1px solid #D6D6D6;}
 #container #homepage #services article figure figcaption{}
-#container #homepage #services article figure h2{font-size:14px; font-weight:bold;}
+#container #homepage #services article figure h2{font-size: 20px; font-family: 'Josefin Sans', sans-serif; font-style: normal;}
 #container #homepage #services article figure footer{}
 
-#container #homepage #intro{}
+#container #homepage #intro{
+    width: auto;
+    height: auto;
+    background: rgb(55, 90, 184);}
 #container #homepage #intro article{}
 #container #homepage #intro article figure{}
 #container #homepage #intro article figure img{float:right; margin:0 0 10px 0; padding:4px; border:1px solid #D6D6D6;}
@@ -128,9 +137,9 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #footer{padding:30px 0; font-size:12px; line-height:1.4em;}
 
-#footer section h2.title{margin:0 0 25px 0; padding:0; color:#FFFFFF; background-color:#333333; font-size:12px; font-weight:bold; text-transform:uppercase;}
+#footer section h2.title{margin:0 0 25px 0; padding:0; color:#FFFFFF; font-size:12px; font-weight:bold; text-transform:uppercase;}
 
-#footer section nav li{margin:0 0 5px 0; padding:0 0 5px 0; border-bottom:1px solid #555555;}
+#footer section nav li{margin:0 0 5px 0; padding:0 0 5px 0; border-bottom:1px;}
 #footer section nav li.last{margin:0;}
 
 /*----------------------------------------------Copyright-------------------------------------*/
